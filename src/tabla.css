@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #333; }
+
+#main-container{
+    margin: 150 auto;
+    width: 500px;
+
+}
+
+table{
+
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+th, td{
+
+    border: solid 2px black;
+    padding: 20px;
+
+}
+
+thead{
+
+    background-color: red;
+    border-bottom: solid 5px black;
+    color: black;
+
+}
+
+tr:hover td{
+
+    background-color: grey;
+    color: black;
+
+}
